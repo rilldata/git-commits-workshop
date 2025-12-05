@@ -20,8 +20,8 @@
 
     ```yaml
     features: 
-    developerChat: true
-    generateCanvas: true
+        developerChat: true
+        generateCanvas: true
     ```
 3. **Add Data** → Select **Google Cloud Storage** → Skip credentials part (It's a public source)
    
@@ -36,30 +36,31 @@
 
 Check and review project files one by one:
 
-1. `rill.yaml` - project level metadata
-2. `sources/commits.yaml` - source defintion for reading data from GCS to DuckDB
-3. `metrics/commits_metrics.yaml` - Dimensions, measures, security policies
-4. `dashboards/commits_explore.yaml` - Exploratory dashboard for commits
-5. `dashboards/commits_canvas.yaml` - Report style canvas dashboard
+1. **Project Metadata** ([`rill.yaml`](./rill.yaml)) - project level metadata
+2. **Sources** ([`sources/commits.yaml`](./sources/commits.yaml)) - source definition for reading data from GCS to DuckDB
+3. **Metrics View** ([`metrics/commits_metrics.yaml`](./metrics/commits_metrics.yaml)) - Dimensions, measures, security policies
+4. **Explore** ([`dashboards/commits_metrics_explore.yaml`](./dashboards/commits_metrics_explore.yaml)) - Exploratory dashboard for commits
+5. **Canvas** ([`dashboards/commits_metrics_canvas.yaml`](./dashboards/commits_metrics_canvas.yaml)) - Report style canvas dashboard
 
 
 ### Quick Edits using AI as copilot
-
-1. Add a new dimension commit_uri that points to commits on GitHub
-2. Add a new measure for the number of committers as count distinct authors
-3. Notice the tool calls being made
-4. Explore these new dimensions and measures
-5. Find 1 insight and share it
-6. Popular projects, Top contributors
-7. Compare activity across projects over time
+```
+Add a new dimension `commit_uri` that points to commits on GitHub
+Add a new measure for the number of committers as count distinct authors
+```
+1. Notice the tool calls being made
+2. Explore these new dimensions and measures
+3. Find 1 insight and share it
+4. Popular projects, Top contributors
+5. Compare activity across projects over time
 
 ### Editing code outside of Rill
 
 1. Open project in your fav IDE/CLI
-2. Add a new file models/file_changes.sql
+2. Add a new file [`models/file_changes.sql`](./models/file_changes.sql)
 3. Copy contents from [file_changes.sql](https://github.com/rilldata/fifthel-workshop/blob/main/models/file_changes.sql)
 4. Create a new Metrics View in the same way
-5. [file_changes_metrics.yaml](https://github.com/rilldata/fifthel-workshop/blob/main/metrics/file_changes_metrics.yaml)
+5. [file_changes_metrics.yaml](./metrics/file_changes_metrics.yaml)
 6. Que: What is the lag between adding the file and it reflecting in Rill
 7. BI-as-Code allows any AI-enabled IDE for making changes
 
@@ -92,6 +93,10 @@ Check and review project files one by one:
 
 ## Further exploration
 
+**Your own git commits data**
+
+- Use script in [`scripts/extract_commits.py`](./scripts/extract_commits.py) to extract commits from one or more repositories
+
 **Connect using MCP server**
 
 - [MCP Server Documentation](https://docs.rilldata.com/explore/mcp)
@@ -108,8 +113,8 @@ Check and review project files one by one:
 
 ### More demo projects
 
-1. Check out [Rill Demo Projects](https://ui.rilldata.com/demo)
-2. [Source codes on GitHub](https://github.com/rilldata/rill-examples)
+1. Check out public [Rill Demo Projects](https://ui.rilldata.com/demo)
+2. [Example projects on GitHub](https://github.com/rilldata/rill-examples)
 
 ---
 
