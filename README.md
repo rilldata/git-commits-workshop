@@ -44,6 +44,7 @@ Check and review project files one by one:
 
 
 ### Quick Edits using AI as copilot
+Use prompt below - 
 ```
 Add a new dimension `commit_uri` that points to commits on GitHub
 Add a new measure for the number of committers as count distinct authors
