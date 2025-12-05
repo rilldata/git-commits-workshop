@@ -1,6 +1,6 @@
 -- Model SQL
 -- Reference documentation: https://docs.rilldata.com/build/models
-
+-- @materialize: true
 SELECT
     c.time AS time,
     c.hash,

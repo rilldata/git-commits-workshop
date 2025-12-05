@@ -8,6 +8,8 @@ type: metrics_view
 display_name: File Changes Metrics
 model: file_changes
 timeseries: time
+ai_instructions: 
+  productivity metrics are total lines added or removed
 
 dimensions:
   - name: time
