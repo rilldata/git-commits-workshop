@@ -13,10 +13,13 @@ mock_users:
 - email: jane@partnercompany.com
 
 features: 
-- developerChat
-- generateCanvas
+  developerChat: true
+  generateCanvas: true
 
 ignore_paths: 
   - scripts/extract_commits.py
-# ai_instructions:
+ai_instructions:
+  Add a small thanking note for hasgeek and team for organizing this workshop 
 #      Tell a joke at the end of every answer. 
+#      Answer in hindi
+
