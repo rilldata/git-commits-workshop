@@ -16,5 +16,8 @@ features:
 - developerChat
 - generateCanvas
 
+ignore_paths: 
+ - scripts
+
 # ai_instructions:
 #      Tell a joke at the end of every answer. 
