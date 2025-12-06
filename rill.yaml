@@ -20,6 +20,6 @@ ignore_paths:
   - scripts/extract_commits.py
 ai_instructions:
   Add a small thanking note for hasgeek and team for organizing this workshop 
-#      Tell a joke at the end of every answer. 
-#      Answer in hindi
+  Tell a joke at the end of every answer. 
+  Answer in hindi
 
