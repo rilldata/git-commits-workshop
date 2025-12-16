@@ -2,6 +2,8 @@
 
 📊 **Slide Deck**: [View the workshop presentation](https://docs.google.com/presentation/d/1I8TGBGJ_tR1RHqT3VRzmgjfhKpY7LGF0rWMuMdq8Zik/edit?usp=sharing)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true)
+
 ### Creating your git commits project
 
 1. Install Rill:
