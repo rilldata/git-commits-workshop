@@ -7,7 +7,7 @@
     }
   },
   "postCreateCommand": "curl https://rill.sh | sh -s -- --non-interactive ~/rill",
-  "postStartCommand": "~/.rill start --no-open",
+  "postStartCommand": "~/rill/rill start --no-open",
   "forwardPorts": [9009],
   "portsAttributes": {
     "9009": {
