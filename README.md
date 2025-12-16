@@ -2,8 +2,7 @@
 
 📊 **Slide Deck**: [View the workshop presentation](https://docs.google.com/presentation/d/1I8TGBGJ_tR1RHqT3VRzmgjfhKpY7LGF0rWMuMdq8Zik/edit?usp=sharing)
 
-
-**Codespaces**: [Create a new codespace](https://codespaces.new/rilldata/git-commits-workshop) | [View existing codespaces](https://github.com/codespaces)
+[![New GitHub Codespace](https://img.shields.io/badge/New-GitHub%20Codespace-2ea44f)](https://codespaces.new/rilldata/git-commits-workshop) [![View existing Codespaces](https://img.shields.io/badge/View%20Existing-Codespaces-blue)](https://github.com/codespaces)
 
 ### Creating your git commits project
 
